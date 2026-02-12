@@ -6,7 +6,7 @@ select * from {{ ref('stg_dbt_trial__customers') }}
 
 orders as (
 
-select * from {{ ref('stg_dbt_trial__orders') }}
+select * from {{ ref('fct_orders') }}
 
 ),
 
