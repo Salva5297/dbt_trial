@@ -1,6 +1,6 @@
 with customers as (
 
-select * from {{ ref('stg_dbt_trial__customers') }}
+select * from {{ ref('stg_jaffle_shop__customers') }}
 
 ),
 
